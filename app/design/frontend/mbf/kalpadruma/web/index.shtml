@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="icon" href="images/favicon.png" type="image/png" sizes="16x16">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Itim' rel='stylesheet' type='text/css'>
+    <title>Kalpadruma | Home</title>
+    <!-- Bootstrap -->
+    <link href="css/style.css" rel="stylesheet">
+    <script src="http://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.8.3.js"></script>
+  </head> 
+  <body id="homepage">
+    <!--#include file="header.html"-->
+    <section id="hero-section" style="background-image:url(images/hero-banner.jpg);">
+      <div class="logo"><img src="images/kalpadruma-logo.png" alt="" /></div>
+      <div class="dropArrow"><i class="fa fa-angle-down" aria-hidden="true"></i></div>
+    </section>
+    <section class="sections" id="category">
+      <div class="pull-top clearfix">
+        <div class="category-box">
+          <div class="category-box-content image-box" style="background-image:url(images/tops.jpg);"></div>
+          <div class="category-box-content">
+            <div>
+              <h2>Tops</h2>
+              <p>Lorem ipsum dolor sit amet adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+              <a href="#" class="button button-secondary">View Collection</a>
+            </div>
+          </div>
+        </div>
+        <div class="category-box">
+         <div class="category-box-content image-box" style="background-image:url(images/handicrafts.jpg);"></div>
+          <div class="category-box-content">
+            <div>
+              <h2>Kurthas</h2>
+              <p>Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor ncididunt ut labore minim,</p>
+              <a href="#" class="button button-secondary">View Collection</a>
+            </div>
+          </div>
+        </div>
+        <div class="category-box">
+          <div class="category-box-content image-box" style="background-image:url(images/home-decor.jpg);"></div>
+          <div class="category-box-content">
+            <div>
+              <h2>Home Decor</h2>
+              <p>Lorem ipsum dolor sit amet adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+              <a href="#" class="button button-secondary">View Collection</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="category-box">
+          <div class="category-box-content image-box" style="background-image:url(images/products-img9.jpg);"></div>
+          <div class="category-box-content">
+            <div>
+              <h2>Dresses</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, dood tempor i ncididunt ut labor</p>
+              <a href="#" class="button button-secondary">View Collection</a>
+            </div>
+          </div>
+        </div>
+        <div class="category-box">
+         <div class="category-box-content image-box" style="background-image:url(images/products-im12.jpg);"></div>
+          <div class="category-box-content">
+            <div>
+              <h2>Handicrafts</h2>
+              <p>Lorem ipsum dolor sit amet adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+              <a href="#" class="button button-secondary">View Collection</a>
+            </div>
+          </div>
+          
+        </div>
+        <div class="category-box">
+          <div class="category-box-content image-box" style="background-image:url(images/products-im11.jpg);"></div>
+          <div class="category-box-content">
+            <div>
+              <h2>Crockery</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, dood tempor i ncididunt ut labor</p>
+              <a href="#" class="button button-secondary">View Collection</a>
+            </div>
+          </div>
+        </div>
+
+        
+      </div>      
+    </section>
+    <section class="sections" id="products">
+     <h1>This seasons offers!</h1>
+     <div class="pull-top clearfix">
+            <div id="featured-products" class="product-listing">
+              <div class="slick-carousel">
+                <div class="product-image">
+                  <img src="images/products-img4.jpg" alt="" />
+                  <span class="offer">Sale</span>
+                </div>
+                <h4>Not a long dress</h4>
+                <div class="product-price">
+                  <span class="old-price"><i class="fa fa-inr" aria-hidden="true"></i> 1,650</span>
+                  <span class="new-price"><i class="fa fa-inr" aria-hidden="true"></i> 1,850</span>
+                </div>
+                <a href="#" class="button button-secondary">Buy Now</a>
+              </div>
+              <div class="slick-carousel">
+                <div class="product-image">
+                  <img src="images/products-img5.jpg" alt="" />
+                </div>
+                <h4>Not a long dress</h4>
+                <div class="product-price">
+                  <span class="old-price"><i class="fa fa-inr" aria-hidden="true"></i> 1,650</span>
+                  <span class="new-price"><i class="fa fa-inr" aria-hidden="true"></i> 1,850</span>
+                </div>
+                <a href="#" class="button button-secondary">Buy Now</a>
+              </div>
+              <div class="slick-carousel">
+                <div class="product-image">
+                  <img src="images/products-img6.jpg" alt="" />
+                  <span class="offer">Sale</span>
+                </div>
+                  <h4>Not a long dressNot a long dressNot a long dressNot a long dressNot a long dressNot a long dress v  </h4>
+                <div class="product-price">
+                  <span class="old-price"><i class="fa fa-inr" aria-hidden="true"></i> 1,650</span>
+                  <span class="new-price"><i class="fa fa-inr" aria-hidden="true"></i> 1,850</span>
+                </div>
+                <a href="#" class="button button-secondary">Buy Now</a>
+              </div>
+              <div class="slick-carousel">
+                <div class="product-image">
+                  <img src="images/products-img4.jpg" alt="" />
+                  <span class="offer">Sale</span>
+                </div>
+                <h4>Not a long dress</h4>
+                <div class="product-price">
+                  <span class="old-price"><i class="fa fa-inr" aria-hidden="true"></i> 1,650</span>
+                  <span class="new-price"><i class="fa fa-inr" aria-hidden="true"></i> 1,850</span>
+                </div>
+                <a href="#" class="button button-secondary">Buy Now</a>
+              </div>
+              <div class="slick-carousel">
+                <div class="product-image">
+                  <img src="images/products-img5.jpg" alt="" />
+                </div>
+                <h4>Not a long dress</h4>
+                <div class="product-price">
+                  <span class="old-price"><i class="fa fa-inr" aria-hidden="true"></i> 1,650</span>
+                  <span class="new-price"><i class="fa fa-inr" aria-hidden="true"></i> 1,850</span>
+                </div>
+                <a href="#" class="button button-secondary">Buy Now</a>
+              </div>
+              <div class="slick-carousel">
+                <div class="product-image">
+                  <img src="images/products-img6.jpg" alt="" />
+                  <span class="offer">Sale</span>
+                </div>
+                  <h4>Not a long dress</h4>
+                <div class="product-price">
+                  <span class="old-price"><i class="fa fa-inr" aria-hidden="true"></i> 1,650</span>
+                  <span class="new-price"><i class="fa fa-inr" aria-hidden="true"></i> 1,850</span>
+                </div>
+                <a href="#" class="button button-secondary">Buy Now</a>
+              </div>
+              <div class="slick-carousel">
+                <div class="product-image">
+                  <img src="images/products-img4.jpg" alt="" />
+                  <span class="offer">Sale</span>
+                </div>
+                <h4>Not a long dress</h4>
+                <div class="product-price">
+                  <span class="old-price"><i class="fa fa-inr" aria-hidden="true"></i> 1,650</span>
+                  <span class="new-price"><i class="fa fa-inr" aria-hidden="true"></i> 1,850</span>
+                </div>
+                <a href="#" class="button button-secondary">Buy Now</a>
+              </div>
+              <div class="slick-carousel">
+                <div class="product-image">
+                  <img src="images/products-img5.jpg" alt="" />
+                </div>
+                <h4>Not a long dress</h4>
+                <div class="product-price">
+                  <span class="old-price"><i class="fa fa-inr" aria-hidden="true"></i> 1,650</span>
+                  <span class="new-price"><i class="fa fa-inr" aria-hidden="true"></i> 1,850</span>
+                </div>
+                <a href="#" class="button button-secondary">Buy Now</a>
+              </div>
+              <div class="slick-carousel">
+                <div class="product-image">
+                  <img src="images/products-img6.jpg" alt="" />
+                  <span class="offer">Sale</span>
+                </div>
+                  <h4>Not a long dress</h4>
+                <div class="product-price">
+                  <span class="old-price"><i class="fa fa-inr" aria-hidden="true"></i> 1,650</span>
+                  <span class="new-price"><i class="fa fa-inr" aria-hidden="true"></i> 1,850</span>
+                </div>
+                <a href="#" class="button button-secondary">Buy Now</a>
+              </div>
+              <!-- End -->
+            </div>
+            <div class="range">
+              <h2>Explore our Range</h2>
+              <ul>
+                  <li><a href="#"><div class="spirt-img garment-img"></div> <span>Garments</span></a></li>
+                  <li><a href="#"><div class="spirt-img furnish-img"></div><span>Home Furnishing</span></a></li>
+                  <li><a href="#"><div class="spirt-img craft-img"></div><span>Crafts</span></a></li>
+              </ul>
+            </div>
+        </div>      
+    </section>
+    <section id="whyus" class="sections">
+      <div class="container">
+        <div class="col-xs-9 center-block text-center">
+          <h2>Why Us?</h2>
+          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitaedicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+          <ul>
+              <li><img src="images/stitched.png" alt=""/> <span>Stitched to Perfection</span></li>
+              <li><img src="images/hand-crafted.png" alt=""/> <span>Hand Crafted</span></li>
+              <li><img src="images/eco-friendly.png" alt=""/> <span>Eco - Friendly</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!--#include file="footer.html"-->
+    <script src="js/build/global.min.js"></script>
+  </body>
+</html>

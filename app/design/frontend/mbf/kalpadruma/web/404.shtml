@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="icon" href="images/favicon.png" type="image/png" sizes="16x16">
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Itim' rel='stylesheet' type='text/css'>
+<title>Kalpadruma | 404 Page not found</title>
+<!-- Bootstrap -->
+<link href="css/style.css" rel="stylesheet">
+<script src="http://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.8.3.js"></script>
+</head>
+<body>
+<!--#include file="header.html"-->
+<section class="subwrap">
+    <div class="container">
+        <div class="col-xs-8 center-block error-page">
+            <img src="images/payment-failed.png" >
+            <h1>Oops! That page doesn't exist.</h1>
+            <p>This page was either removed or does not exist. Would you like to go back to our home page and start over?</p>
+        </div>
+	</div>
+</section>
+<!--#include file="footer.html"-->
+<script src="js/build/global.min.js"></script>
+</body>
+</html>

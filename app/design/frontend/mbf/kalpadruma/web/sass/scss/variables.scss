@@ -1,0 +1,52 @@
+$font-monsLight: 'MontserratLight', sans-serif;
+$font-monsRegular: 'MontserratRegular', sans-serif;
+$font-tulia: 'Tulia', sans-serif;
+$font-awesome: 'FontAwesome';
+// Colors
+$black:#333333; 
+$blue: #075671;
+$light-blue: #73b3bc;
+$yellow: #efbc21;
+$white: #ffffff;
+$lite-white:#fdfdfd;
+$grey: #f0f0f0; 
+$lite-grey: #f3f2ef; 
+$bg: #f2efe5;
+$maroon: #701313; 
+$line: #e2e2e2;
+$dark-grey:#3c3d41;
+$bone: #ddc9b1;
+$island: #f9eedd;
+$grey-light: #d3d3d3;
+$zircon: #e1e5e6;
+$aluminium: #838d8f; 
+$yellow-bg:#f2e0b6;
+$revolver: #353538;
+$tuna: #4d4f53; 
+$cherokee: #f2ce79;
+$nero: #282828;
+$gainsboro: #e3e3e3;
+$iron: #d1d2d4;
+$bright-grey: #5b5c60;
+$tradewind: #6da7af; 
+$puce: #cc8585;
+$vistablue: #85cca2;
+$mobMenuLinkColor:#353a1a;
+$menuSubBorderColor:#4e5155;
+ 
+// Font sizes
+$font-vs: 10px;
+$font-s:12px;
+$font-sm:14px;
+$font-md:16px;
+$font-x:18px;
+$font-xl:24px;
+$font-xll:36px;
+$font-xls:60px; 
+
+@mixin transfrom-rotate($rotate) {
+  -webkit-transform: rotate($rotate);
+     -moz-transform: rotate($rotate);
+      -ms-transform: rotate($rotate);
+          transform: rotate($rotate);
+}

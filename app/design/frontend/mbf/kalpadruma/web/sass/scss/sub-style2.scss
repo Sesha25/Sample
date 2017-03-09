@@ -1,0 +1,172 @@
+/* form */
+.ui-selectmenu-button {
+    background: $white;
+    display: block;
+    width: 100% !important;
+    &:focus {
+        outline: 0;
+    }
+}
+.ui-selectmenu-menu { 
+    z-index: 9999;
+}
+.ui-selectmenu-button span.ui-selectmenu-text {
+    border: 1px solid $zircon;
+    background-color: $white;
+    color: $dark-grey;
+    padding: 16px 40px 16px 15px;
+}
+.ui-corner-top,
+.ui-corner-bottom {
+    border-radius: 0;
+}
+.ui-menu .ui-state-focus {
+    margin: 0;
+}
+.ui-menu .ui-menu-item {
+    color: $dark-grey;
+    border-top: 1px solid $zircon;
+    padding: 10px 16px;
+}
+.ui-menu .ui-menu-item:nth-child(2) {
+    border-top: 1px solid transparent !important;
+}
+.ui-selectmenu-button span.ui-icon,
+.ui-button-icon-primary {
+    height: 50px;
+    margin: 0;
+    right: 0;
+    text-align: center;
+    text-indent: inherit;
+    top: 0;
+    width: 46px;
+}
+.ui-selectmenu-menu .ui-menu {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding-bottom: 1px;
+    background: white;
+    border: 1px solid $zircon;
+    border-top:none;
+    max-height:150px;
+}
+.ui-selectmenu-button span.ui-icon:after,
+.ui-button-icon-primary:after {
+    color: $dark-grey;
+    content: "\f107";
+    font-family: FontAwesome;
+    font-size: 14px;
+    font-weight: 700;
+    left: 50%;
+    line-height: 24px;
+    margin-left: -6px;
+    margin-top: -11px;
+    position: absolute;
+    width: 10px;
+    top: 50%;
+}
+.ui-button-icon-only .ui-icon.ui-button-icon-primary {
+    left: auto;
+    margin: 0;
+    top: 0;
+}
+.ui-selectmenu-menu ul {
+    padding-bottom: 0;
+}
+.ui-selectmenu-menu ul li:first-child {
+    display: none;
+}
+
+.myacc-right > ul.dashboard-list{ margin:0;}
+.myacc-right > ul.dashboard-list > li a:hover, .myacc-right > ul.dashboard-list > li a.active span, .myacc-right > ul.dashboard-list > li a.active i{color:black;}
+.myacc-right > ul.dashboard-list > li a.active i{ border: 1px solid $black;border-radius: 25px;}
+.myacc-right > ul.dashboard-list > li {
+    float: none;
+    height: none !important;
+    margin: 0!important;
+    padding: 15px 0 15px 50px;
+    position: relative;
+    text-align: left;
+    width: auto !important;
+}
+.myacc-right > ul.dashboard-list > li a { line-height: 20px; }
+.myacc-right > ul.dashboard-list > li i, .myacc-right > ul.dashboard-list > li i {
+    font-size: 20px;
+    height: 38px;
+    line-height: 38px;
+    left: 0;
+    margin-top: -19px;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 38px;
+}
+
+.myacc-right > ul.dashboard-list > li span {
+    font-size: 16px;
+    text-transform: inherit;
+}
+.myacc-right > ul.dashboard-list > li span { font-size: 14px; }
+
+
+ul.dashboard-list{
+    margin:0 -15px;
+    padding-top:20px;
+    padding-bottom:10px;
+    li{
+        float: left;
+        padding: 0 15px;
+        text-align: center;
+        width:25%;
+
+        i{
+            border: 1px solid $black;
+            color:$black;
+            display: inline-block;
+            font-size: 92px;
+            line-height: 165px;
+            height: 165px;
+            margin-bottom: 15px;
+            width: 165px;
+            @include border-radius(100px);
+        }
+
+        span{
+            color:$black;
+            display:block;
+            font-size:16px;
+            text-transform: uppercase;
+        }
+    }
+}
+
+ul.dashboard-list li a:hover i{border: 1px solid $light-blue; color:$light-blue !important;}
+ul.dashboard-list li a:hover h4{ color:$light-blue;}
+
+
+/*register*/
+.form-wrap{ padding-bottom:30px;
+    .formgap{margin-bottom: 40px;}
+}
+
+/*under maintenance*/
+
+.intro-text{
+    padding-bottom: 60px;
+    h3{
+        padding-bottom: 7px;
+    }
+    p{
+    padding-left: 10px;
+    }
+    h2{
+    padding-bottom: 30px;
+    }
+}
+.form-section .intro-text h3{
+    padding-top:20px;
+}
+.form-section .intro-text{
+padding-top: 10px;
+text-align: center;
+}
